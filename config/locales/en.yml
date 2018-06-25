@@ -31,3 +31,44 @@
 
 en:
   hello: "Hello world"
+  signUp: "Sign up"
+  new: "News"
+  layout:
+    head:
+      home: "Home"
+      help: "Help"
+      login: "Login"
+      sampleApp: "sample app"
+    footer:
+      about: "About"
+      contact: "Contact"
+      the: "The"
+      by: "by"
+      nameBook: "Ruby on Rails Tutorial"
+      author: "Michael Hartl"
+  static_pages:
+    contact:
+      contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contactPage: "contact page"
+    home:
+      welcome: "Welcome to the Sample App"
+      ror: "Ruby on Rails Tutorial"
+      intro: "This is the home page for the"
+      sameApp: "sample application."
+      signUp: "Sign up now!"
+    help: 
+      get_help: "Get help on the Ruby on Rails Tutorial at the"
+      rails_help: "Rails Tutorial help section"
+      to_help: "To get help on this sample app, see the"
+      ror: "Ruby on Rails Tutorial"
+    about:
+      rorT: "Ruby on Rails Tutorial"
+      screen: "screencast series"
+      aboutbook: "This is the sample application for the tutorial."
+      ror: "Ruby on Rails"
+      toTeach: "to teach web development with"
+      the: "The"
+      about: "About"
+      is: "is a"
+      and: "and"
+      book: "book"
