@@ -1,3 +1,4 @@
 maximum_hight: 255
 maximum_low: 50
 minimum_password: 6
+gravatar_size: 80

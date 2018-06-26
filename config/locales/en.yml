@@ -33,6 +33,7 @@ en:
   hello: "Hello world"
   signUp: "Sign up"
   new: "News"
+  notFound: "Record not found"
   layout:
     head:
       home: "Home"
@@ -72,3 +73,7 @@ en:
       is: "is a"
       and: "and"
       book: "book"
+  users:
+    new:
+      createAcount: "Create account"
+      confirmation: "Confirmation"
