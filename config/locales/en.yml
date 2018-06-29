@@ -34,19 +34,21 @@ en:
   signUp: "Sign up"
   new: "News"
   notFound: "Record not found"
-  layout:
-    head:
-      home: "Home"
-      help: "Help"
-      login: "Login"
-      sampleApp: "sample app"
-    footer:
-      about: "About"
-      contact: "Contact"
-      the: "The"
-      by: "by"
-      nameBook: "Ruby on Rails Tutorial"
-      author: "Michael Hartl"
+  profile: "Profile"
+  setting: "Settings"
+  home: "Home"
+  help: "Help"
+  login: "Login"
+  logout: "Logout"
+  sampleApp: "sample app"
+  user: "Users"
+  about: "About"
+  contact: "Contact"
+  the: "The"
+  by: "by"
+  nameBook: "Ruby on Rails Tutorial"
+  author: "Michael Hartl"
+  account: "Account"
   static_pages:
     contact:
       contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
@@ -77,3 +79,10 @@ en:
     new:
       createAcount: "Create account"
       confirmation: "Confirmation"
+  sessions:
+    create:
+      icorectPassword: "Invalid email/password combination"
+    new:
+      signUp: "Sign up now!"
+      newUser: "New user?"
+      login: "Log in"
