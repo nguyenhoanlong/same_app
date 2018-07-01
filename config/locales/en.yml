@@ -76,9 +76,23 @@ en:
       and: "and"
       book: "book"
   users:
+    please: "Please login!"
+    titleUpdate: "Profile updated"
     new:
       createAcount: "Create account"
       confirmation: "Confirmation"
+      save_change: "Save changes"
+    edit:
+      editUser: "Edit user"
+    index:
+      title: "All users"
+      delete: "Delete"
+      confirm: "Are you sure?"
+    destroy:
+      success: "User deleted"
+      error: "Don't delete"
+    edit:
+      change: "Change"
   sessions:
     create:
       icorectPassword: "Invalid email/password combination"
