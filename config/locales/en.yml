@@ -78,6 +78,8 @@ en:
   users:
     please: "Please login!"
     titleUpdate: "Profile updated"
+    create:
+      confirm_email: "Please check your email to activate your account."
     new:
       createAcount: "Create account"
       confirmation: "Confirmation"
@@ -95,9 +97,22 @@ en:
       change: "Change"
   sessions:
     create:
-      icorectPassword: "Invalid email/password combination"
+      icorect_password: "Invalid email/password combination"
+      account_not_activated: "Account not activated"
+      check_email: "Check your email for the activation link"
     new:
       signUp: "Sign up now!"
       newUser: "New user?"
       login: "Log in"
       rememberMe: "Remember me on this computer"
+  mailer:
+    user_mailer:
+      account_activation: "Account activation"
+      same_app: "Sample App"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account: "
+      activate: "Activate"
+  activations:
+    edit:
+      activated: "Account activated!"
+      invalid_link: "Invalid activation link"
