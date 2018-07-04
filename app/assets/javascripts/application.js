@@ -14,5 +14,9 @@
 //= require bootstrap
 //= require rails-ujs
 //= require activestorage
+//= require i18n
+//= require i18n.js
+//= require i18n/translations
+//= require micropost_form
 //= require turbolinks
 //= require_tree .
