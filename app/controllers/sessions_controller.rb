@@ -15,7 +15,7 @@ class SessionsController < ApplicationController
         redirect_to root_url
       end
     else
-      flash.now[:danger] = t ".sessions.create.icorect_password"
+      flash.now[:danger] = t "sessions.create.icorect_password"
       render :new
     end
   end

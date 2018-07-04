@@ -3,3 +3,4 @@ maximum_low: 50
 minimum_password: 6
 gravatar_size: 80
 size_avt: 50
+day_password_reset_expired: 2
