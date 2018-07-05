@@ -4,3 +4,7 @@ minimum_password: 6
 gravatar_size: 80
 size_avt: 50
 day_password_reset_expired: 2
+maximum_content: 140
+max_width_size: 400
+max_height_size: 400
+validate_size_image: 5

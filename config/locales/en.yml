@@ -30,6 +30,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  microposts_form:
+    alert_max_size_upload: "Maximum file size is 5MB. Please choose a smaller file."
+  the_from: " The form contains"
   hello: "Hello world"
   signUp: "Sign up"
   new: "News"
@@ -49,6 +52,9 @@ en:
   nameBook: "Ruby on Rails Tutorial"
   author: "Michael Hartl"
   account: "Account"
+  view_profile: "view my profile"
+  placeholder_create_post: "Compose new micropost..."
+  post: "Post"
   static_pages:
     contact:
       contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
@@ -58,6 +64,7 @@ en:
       ror: "Ruby on Rails Tutorial"
       intro: "This is the home page for the"
       sameApp: "sample application."
+      feed: "Micropost Feed"
       signUp: "Sign up now!"
     help: 
       get_help: "Get help on the Ruby on Rails Tutorial at the"
@@ -134,3 +141,9 @@ en:
     update:
       not_empty: "can't be empty"
       success: "Password has been reset."
+  micropost:
+    ago: "ago"
+    microposts: "Microposts"
+    create_micropost: "Micropost created!"
+    validate_picture_size: "should be less than 5MB"
+    delete_success: "Micropost deleted"
