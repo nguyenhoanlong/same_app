@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: %i(index edit update destroy)
+  before_action :logged_in_user, only: %i(index edit update destroy following followers)
   before_action :correct_user, only: [:edit, :update]
   before_action :verify_admin, only: :destroy
   before_action :load_user, only: %i(show edit update)
@@ -10,6 +10,20 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
+  end
+
+  def following
+    @title = t "shared.following"
+    @user  = User.find params[:id]
+    @users = @user.following.page params[:page]
+    render :show_follow
+  end
+
+  def followers
+    @title = t "shared.followers"
+    @user  = User.find params[:id]
+    @users = @user.followers.page params[:page]
+    render :show_follow
   end
 
   def create

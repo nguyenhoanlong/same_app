@@ -30,6 +30,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  shared:
+    following: "Following"
+    followers: "Followers"
   microposts_form:
     alert_max_size_upload: "Maximum file size is 5MB. Please choose a smaller file."
   the_from: " The form contains"
@@ -83,6 +86,8 @@ en:
       and: "and"
       book: "book"
   users:
+    follow: "Follow"
+    unfollow: "Unfollow"
     please: "Please login!"
     titleUpdate: "Profile updated"
     create:
